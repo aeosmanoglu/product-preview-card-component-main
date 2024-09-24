@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    .text-display {
+        @apply font-serif font-bold text-neutral-900;
+        font-size: 32px;
+        line-height: 32px;
+    }
+
+    .text-body {
+        @apply font-sans font-medium text-neutral-500;
+        font-size: 14px;
+        line-height: 23px;
+    }
+
+    .text-button {
+        @apply font-sans font-semibold text-white text-sm;
+    }
+
+    .text-overline {
+        @apply font-sans font-semibold text-neutral-500 text-xs;
+        letter-spacing: 5px;
+    }
+
+    .text-tag {
+        @apply font-sans font-medium text-neutral-500;
+        font-size: 13px;
+        line-height: 23px;
+    }
+}
+
+
+
+
+
